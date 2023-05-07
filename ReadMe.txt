@@ -1,0 +1,3 @@
+May have different required syntax as this version was made on MacOS, plus UI may look different compared to how it was intended. I have provided all the files within this folder so therefore all images and text files + a spare recursive sorting algorithm that was originally meant to go with the code however was voided as stated in the main project body along with the source codes' comments. May need to change image src locations throughout program... Still struggling to access the code? I'd recommend you trying to access it online here --> https://replit.com/@HeathKavanagh1/csreal#main.py
+
+All rights reserved to Heath Kavanagh 
