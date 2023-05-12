@@ -343,7 +343,7 @@ class MenuScreen():
         elif itemref == 2 and self.ribsCount > 0:
             self.ribsCount -= 1
             self.ribsnumber.config(text=self.ribsCount)
-        elif itemref == 3:
+        elif itemref == 3 and self.sweetnsourCount > 0:
             self.sweetnsourCount -= 1
             self.sweetnsournumber.config(text=self.sweetnsourCount)
         elif itemref == 4 and self.wontonCount > 0:
@@ -379,7 +379,7 @@ class MenuScreen():
         else:
             popup = tk.Toplevel(bg="white")
             popup.title("Error!")
-            label = tk.Label(popup, text="You can't have less than one of a particular item.", bg="white", fg="red")
+            label = tk.Label(popup, text="You can't have less than zero of a particular item.", bg="white", fg="red")
             label.pack(padx=10, pady=10)
             popup.after(5000, popup.destroy)
         self.basket = [self.fncCount, self.burgerCount,   self.ribsCount, self.sweetnsourCount, self.wontonCount, self.hoisinCount, self.prawnCount, self.riceCount, self.noodleCount, self.chipCount, self.pmaxCount, self.fantaCount, self.spriteCount, self.pepperCount]
