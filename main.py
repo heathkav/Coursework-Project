@@ -291,7 +291,7 @@ class MenuScreen():
         elif itemref == 2 and self.ribsCount < 9:
             self.ribsCount += 1
             self.ribsnumber.config(text=self.ribsCount)
-        elif itemref == 3:
+        elif itemref == 3 and self.sweetnsourCount < 9:
             self.sweetnsourCount += 1
             self.sweetnsournumber.config(text=self.sweetnsourCount)
         elif itemref == 4 and self.wontonCount < 9:
